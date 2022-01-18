@@ -28,7 +28,7 @@ import scipy.io
 if __name__ == '__main__':
 
     # Extract the motion corrected tiffs (make sure that the reg_tif option is set to true, see above)
-    cases = ['rbp6_3']
+    cases = ['rbp6_3', 'rbp11', 'rbp12', 'rbp13', 'rbp16']
     pt = 'Z:\\Scanbox\\Data\\'
     
     for icase in cases:
